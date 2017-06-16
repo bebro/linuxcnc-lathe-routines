@@ -1,0 +1,17 @@
+o501 sub
+(facing operation)
+
+(variables and calculations)
+#<D0> = #1 (starting diameter)
+#<D1> = #2 (end diameter)
+#<Z> = #3 (z-position)
+#<f> = #4 (feed)
+#<retract> = 0.5
+
+(movements)
+G0 X#<D0> Z#<Z>
+G1 X#<D1> F#<f>
+G0 Z[#<Z>+#<retract>]
+X#<D0>
+
+o501 endsub
