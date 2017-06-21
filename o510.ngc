@@ -1,4 +1,4 @@
-o501 sub
+o510 sub
 (facing operation)
 
 (variables and calculations)
@@ -14,4 +14,4 @@ G1 X#<D1> F#<f>
 G0 Z[#<Z>+#<retract>]
 X#<D0>
 
-o501 endsub
+o510 endsub
